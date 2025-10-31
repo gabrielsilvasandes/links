@@ -44,16 +44,6 @@ Responsividade natural – sem media queries, com unidades relativas como %, em,
    └── imagens/
 
 
-⚡ Como Usar
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/biografia-linktree.git
-
-Abra o index.html no navegador.
-
-Personalize links, cores e estilos conforme desejar.
-
 📌 Autor
 
 Gabriel Silva Sandes – Designer e Desenvolvedor Web
