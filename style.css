@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #0056FF;
+    --cor02: #001F3F;
+    --cor03: #FFFFFF;
+    --cor04: #D9D9D9;
+    --cor05: #6A00FF;
+    --cor06: #00FFB3;
+    --cor07: #000000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    font-family: var(--fonte-padrao);
+}
+
+body {
+    background-image: url(imagens/fundo002.jpg);
+    background-size: cover;
+}
+
+header {
+    border: 1px solid var(--cor07);
+    background-color: var(--cor06);
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: var(--cor02);
+}
+
+.titulo {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.links {
+    margin-top: 200px;
+}
+
+article {
+    border: 1px solid var(--cor07);
+    background-color: var(--cor02);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+article > p {
+    text-align: center;
+    padding: 15px;
+}
+
+article > p > a {
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+article > p > a:hover {
+    text-decoration: underline;
+}
+
+article:hover {
+    transition-duration: 0.5s;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--cor06);
+    border: 1px solid var(--cor07);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    color: var(--cor07);
+}
