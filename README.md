@@ -2,6 +2,8 @@
 
 Uma página de biografia moderna, inspirada no Linktree, totalmente responsiva e estilizada com HTML e CSS puro.
 
+[https://gabrielsilvasandes.github.io/links/]
+
 🔹 Sobre o Projeto
 
 Este projeto é uma biografia online que reúne todos os links importantes em um só lugar, de forma simples e elegante.
